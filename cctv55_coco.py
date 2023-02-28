@@ -14,14 +14,13 @@ import pandas as pd
 
 
 
-file_path = 'C:/Users/MH46/Desktop/coco_list.xlsx'
+file_path = '다운로드 대상 task.xlsx'
 coco_list = pd.read_excel(file_path, sheet_name= 0)
 
 
-driver = webdriver.Chrome("C:/Users/MH46/chromedriver.exe")
-# url = "http://210.121.177.103:20256/tasks?page=1" #"http://124.194.100.230:20255/tasks?page=1"
-url = "http://210.121.223.158:20257/tasks?page=1"
-login_data = {"username" : "hyein", "password" : "dbsdbsdbs"} #{"username" : "테스트3", "password" : "xptmxm0514"}
+driver = webdriver.Chrome("chromedriver.exe")
+url = "http://210.121."
+login_data = {"username" : "", "password" : ""} 
 
 driver.get(url)
 time.sleep(1.5)
