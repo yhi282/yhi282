@@ -9,7 +9,7 @@ import shutil
 import datetime
 
 
-path = 'C:/Users/MH46/Desktop/cctv55/processing_check'
+path = 'C:/processing_check'
 file_name = os.listdir(path)
 file_path = []
 d_today = datetime.date.today()
