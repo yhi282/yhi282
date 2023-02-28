@@ -11,12 +11,6 @@ import shutil
 import re
 import random
 
-# 전수검사 새로 생성
-new_path = pd.read_excel("C:/Users/MH46/Desktop/전수검사완료/new_json_list_1.xlsx", sheet_name='new_json')
-new_json = []
-
-for i in new_path['file']:
-    new_json.append(i)
 
 # coco json 불러오기
 ins_path = 'C:/Users/MH46/Desktop/cctv55/inspection_json'
